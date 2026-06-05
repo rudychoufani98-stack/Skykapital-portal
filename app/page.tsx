@@ -11,14 +11,14 @@ export default function Portal() {
       tags: ['Finance', 'ESG', 'Invoices'],
     },
     {
-      name: 'Skykapital Europe',
+      name: 'Skykapital ERP',
       description: 'European operations dashboard, client management and reporting.',
       url: 'https://skykapitaleurope.vercel.app/login',
-      icon: '🌍',
+      icon: '🏢',
       color: '#10B981',
       bg: '#F0FDF4',
       border: 'rgba(16,185,129,0.25)',
-      tags: ['Europe', 'Operations'],
+      tags: ['HR', 'Finance', 'Equipements'],
     },
   ]
 
