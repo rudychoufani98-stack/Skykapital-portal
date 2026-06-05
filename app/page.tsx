@@ -29,7 +29,9 @@ export default function Portal() {
       <div style={{ background: '#0F172A', borderBottom: '1px solid #1E293B' }}>
         <div style={{ maxWidth: 1100, margin: '0 auto', padding: '0 24px', height: 64, display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
-            <span style={{ color: '#F8FAFC', fontWeight: 800, fontSize: 18, letterSpacing: '-0.5px' }}>Skykapital</span>
+            <div style={{ background: '#fff', borderRadius: 10, padding: '5px 14px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+              <img src="/logo.png" alt="Skykapital" style={{ height: 28, objectFit: 'contain', display: 'block' }} />
+            </div>
             <span style={{ color: '#334155', fontSize: 13 }}>|</span>
             <span style={{ color: '#64748B', fontSize: 13 }}>Platform</span>
           </div>
