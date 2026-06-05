@@ -3,7 +3,7 @@ export default function Portal() {
     {
       name: 'ESG Budget Tracker',
       description: 'Contracts, invoices, payment milestones, validations and ESG project tracking.',
-      url: 'https://budget-tracker-two-beta.vercel.app',
+      url: 'https://budget-tracker-two-beta.vercel.app/login',
       icon: '📊',
       color: '#3B82F6',
       bg: '#EFF6FF',
@@ -13,7 +13,7 @@ export default function Portal() {
     {
       name: 'Skykapital Europe',
       description: 'European operations dashboard, client management and reporting.',
-      url: 'https://skykapitaleurope.vercel.app/admin/dashboard',
+      url: 'https://skykapitaleurope.vercel.app/login',
       icon: '🌍',
       color: '#10B981',
       bg: '#F0FDF4',
