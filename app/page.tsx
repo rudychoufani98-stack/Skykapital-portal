@@ -29,8 +29,8 @@ export default function Portal() {
       <div style={{ background: '#fff', borderBottom: '1px solid #E2E8F0', boxShadow: '0 1px 3px rgba(0,0,0,0.04)' }}>
         <div style={{ maxWidth: 1100, margin: '0 auto', padding: '0 32px', height: 70, display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: 14 }}>
-            <img src="/logo.png" alt="Skykapital" style={{ height: 36, objectFit: 'contain', display: 'block' }} />
-            <div style={{ width: 1, height: 20, background: '#E2E8F0' }}/>
+            <img src="/logo.png" alt="Skykapital" style={{ height: 44, objectFit: 'contain', display: 'block', mixBlendMode: 'multiply' }} />
+            <div style={{ width: 1, height: 22, background: '#E2E8F0' }}/>
             <span style={{ color: '#94A3B8', fontSize: 13, fontWeight: 500 }}>Platform</span>
           </div>
           <span style={{ color: '#94A3B8', fontSize: 12 }}>{new Date().toLocaleDateString('en-GB', { weekday: 'long', day: '2-digit', month: 'long', year: 'numeric' })}</span>
