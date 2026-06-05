@@ -26,16 +26,14 @@ export default function Portal() {
     <main style={{ minHeight: '100vh', background: '#F8FAFC', fontFamily: 'Inter, system-ui, sans-serif' }}>
 
       {/* Header */}
-      <div style={{ background: '#0F172A', borderBottom: '1px solid #1E293B' }}>
-        <div style={{ maxWidth: 1100, margin: '0 auto', padding: '0 24px', height: 64, display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-          <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
-            <div style={{ background: '#fff', borderRadius: 10, padding: '5px 14px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-              <img src="/logo.png" alt="Skykapital" style={{ height: 28, objectFit: 'contain', display: 'block' }} />
-            </div>
-            <span style={{ color: '#334155', fontSize: 13 }}>|</span>
-            <span style={{ color: '#64748B', fontSize: 13 }}>Platform</span>
+      <div style={{ background: '#fff', borderBottom: '1px solid #E2E8F0', boxShadow: '0 1px 3px rgba(0,0,0,0.04)' }}>
+        <div style={{ maxWidth: 1100, margin: '0 auto', padding: '0 32px', height: 70, display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 14 }}>
+            <img src="/logo.png" alt="Skykapital" style={{ height: 36, objectFit: 'contain', display: 'block' }} />
+            <div style={{ width: 1, height: 20, background: '#E2E8F0' }}/>
+            <span style={{ color: '#94A3B8', fontSize: 13, fontWeight: 500 }}>Platform</span>
           </div>
-          <span style={{ color: '#475569', fontSize: 12 }}>{new Date().toLocaleDateString('en-GB', { weekday: 'long', day: '2-digit', month: 'long', year: 'numeric' })}</span>
+          <span style={{ color: '#94A3B8', fontSize: 12 }}>{new Date().toLocaleDateString('en-GB', { weekday: 'long', day: '2-digit', month: 'long', year: 'numeric' })}</span>
         </div>
       </div>
 
