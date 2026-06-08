@@ -51,7 +51,10 @@ export default function Portal() {
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))', gap: 24 }}>
           {apps.map(app => (
             <a key={app.name} href={app.url} target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', display: 'block' }}>
-              <div style={{ background: '#FFFFFF', borderRadius: 20, border: `1px solid ${app.border}`, padding: 28, cursor: 'pointer', boxShadow: '0 1px 4px rgba(0,0,0,0.06)' }}>
+              <div style={{ background: '#FFFFFF', borderRadius: 20, border: `1px solid ${app.border}`, padding: 28, cursor: 'pointer', boxShadow: '0 1px 4px rgba(0,0,0,0.06)', transition: 'transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease' }}
+                onMouseEnter={e => { const el = e.currentTarget as HTMLElement; el.style.transform = 'translateY(-6px) scale(1.01)'; el.style.boxShadow = `0 20px 40px ${app.border}`; el.style.borderColor = app.color }}
+                onMouseLeave={e => { const el = e.currentTarget as HTMLElement; el.style.transform = 'none'; el.style.boxShadow = '0 1px 4px rgba(0,0,0,0.06)'; el.style.borderColor = app.border }}
+              >
                 <div style={{ height: 3, background: app.color, borderRadius: 4, marginBottom: 20 }}/>
                 <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', marginBottom: 14 }}>
                   <div style={{ width: 48, height: 48, borderRadius: 14, background: app.bg, display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 22 }}>
