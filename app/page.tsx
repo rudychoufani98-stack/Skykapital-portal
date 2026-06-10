@@ -22,6 +22,16 @@ export default function Portal() {
       border: 'rgba(16,185,129,0.25)',
       tags: ['HR', 'Finance', 'Equipements'],
     },
+    {
+      name: 'E&S Due Diligence Tracker',
+      description: 'Environmental & Social due diligence checklists and compliance tracking for LCCH projects.',
+      url: 'https://e-sddchecklist.vercel.app/',
+      icon: '🌿',
+      color: '#0D9488',
+      bg: '#F0FDFA',
+      border: 'rgba(13,148,136,0.25)',
+      tags: ['E&S', 'Compliance', 'Due Diligence'],
+    },
   ]
 
   return (
