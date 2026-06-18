@@ -41,7 +41,7 @@ export default function Portal() {
       <div style={{ background: '#fff', borderBottom: '1px solid #E2E8F0', boxShadow: '0 1px 3px rgba(0,0,0,0.04)' }}>
         <div style={{ maxWidth: 1100, margin: '0 auto', padding: '0 32px', height: 90, display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
-            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style={{ width: 36, height: 36, flexShrink: 0 }}>
+            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" width="38" height="38" aria-hidden="true" style={{ display: 'block', flexShrink: 0 }}>
               <path d="M50 3 Q50 50 97 50 Q50 50 50 97 Q50 50 3 50 Q50 50 50 3 Z" fill="#1a3c5e" />
             </svg>
             <span style={{ color: '#1a3c5e', fontSize: 20, fontWeight: 700, letterSpacing: '-0.03em' }}>Skykapital</span>
