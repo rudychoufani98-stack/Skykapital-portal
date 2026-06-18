@@ -40,9 +40,12 @@ export default function Portal() {
       {/* Header */}
       <div style={{ background: '#fff', borderBottom: '1px solid #E2E8F0', boxShadow: '0 1px 3px rgba(0,0,0,0.04)' }}>
         <div style={{ maxWidth: 1100, margin: '0 auto', padding: '0 32px', height: 90, display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-          <div style={{ display: 'flex', alignItems: 'center', gap: 14 }}>
-            <img src="/logo.png" alt="Skykapital" style={{ height: 70, width: 'auto', objectFit: 'contain', display: 'block', mixBlendMode: 'multiply' }} />
-            <div style={{ width: 1, height: 22, background: '#E2E8F0' }}/>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style={{ width: 36, height: 36, flexShrink: 0 }}>
+              <path d="M50 3 Q50 50 97 50 Q50 50 50 97 Q50 50 3 50 Q50 50 50 3 Z" fill="#1a3c5e" />
+            </svg>
+            <span style={{ color: '#1a3c5e', fontSize: 20, fontWeight: 700, letterSpacing: '-0.03em' }}>Skykapital</span>
+            <div style={{ width: 1, height: 22, background: '#E2E8F0', margin: '0 4px' }}/>
             <span style={{ color: '#94A3B8', fontSize: 13, fontWeight: 500 }}>Platform</span>
           </div>
           <span style={{ color: '#94A3B8', fontSize: 12 }}>{new Date().toLocaleDateString('en-GB', { weekday: 'long', day: '2-digit', month: 'long', year: 'numeric' })}</span>
